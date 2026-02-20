@@ -5,6 +5,7 @@ on:
     branches: [ main, develop ]
   pull_request:
     branches: [ main, develop ]
+  workflow_dispatch:  # ← Bu satırı ekleyin
 
 jobs:
   lint-and-format:
